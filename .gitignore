@@ -1,0 +1,8 @@
+# Session Data Files
+.RData
+# User-specific Files
+.Ruserdata
+.Rproj.user
+# History files
+.Rhistory
+.Rapp.history
