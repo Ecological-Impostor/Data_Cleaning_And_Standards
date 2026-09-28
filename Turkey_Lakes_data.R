@@ -9,7 +9,7 @@
 # this script uses renv to keep track of package versions, ensuring that 
 # the script can be run in the future
 
-# to resotre all package versions use renv::restore() before running script.
+# to restore all package versions use renv::restore() before running script.
 
 # ---- Packages --------------------------------------------------------
 
@@ -41,7 +41,7 @@ head(chl_a_data,20) # of note: date is labelled as chr, not date
 # absorbance_663nm set as chr, should be dbl
 view(chl_a_data) # I would like to fully explore the dataset to verify NAs and
 # the format that was used for date
-# view() lets me manually inspect the dataset in a seperate tab
+# view() lets me manually inspect the dataset in a separate tab
 # date is organized as YYYY-MM-DD
 # NAs are blank cells, not trouble reading file
 skimr::skim(chl_a_data) # summarize the dataset
